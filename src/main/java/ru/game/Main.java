@@ -14,7 +14,6 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
         SwingUtilities.invokeLater(() -> {
             ConnectionWindow connectionWindow = new ConnectionWindow(client -> {
                 GameWindow gameWindow = new GameWindow(client);
